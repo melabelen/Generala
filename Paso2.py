@@ -1,8 +1,9 @@
+import variables
+
 #EN ESTE ARCHIVO HAY FUNCIONES CON RESPECTO A LA CREACION DE UNA LISTA DE JUGADORES
 
-names = []
-def playersList(quantity):
 
+def playersList(quantity):
     print("A continuacion, ingrese los nombres de los jugadores: ")
     while quantity != 0:
         names.append(input("Ingrese un nombre: "))

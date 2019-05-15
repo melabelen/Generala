@@ -1,23 +1,25 @@
-import shots
+import shots,variables
 
 #EN ESTE ARCHIVO HAY FUNCIONES RELACIONADAS CON LOS DADOS Y COMO SABER SI HAY UNA JUGADA VALIDA
+
+def diceReset():
+
+
 
 #VER, NO TERMINADA
 def dicePlay():
     jugada = diceRoll()
-    tries =1
-    while tries < 3:
+    while tiradas < 3:
         question = int(input("Quiere tirar los dados de vuelta? Si es así, ingrese un 1" ))
         if question == 1:
             input("Ingrese los dados que quiere volver a tirar: ")
             jugada = diceRoll()  #DEPENDE DE LO QUE VAYA EN DICEROLL
-            tries +=1
+            tiradas +=1
         else:
             diceSayOptions(jugada)
             answer= input("Ingrese la opcion por la que anotara puntos (También escriba el nombre "
                           "de uno de los juegos si tachará una de las opciones: ")
             upper(answer)
-
 
 
 #HACER Y VER FUNCION QUE HACE LOS VALORES DE LOS DADOS
