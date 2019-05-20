@@ -1,3 +1,5 @@
+import variables
+
 #Ver el tema de las tiradas por si algo es servido.
 #Ver el tema de la generala doble ya que depende del puntaje del jugador.
 
